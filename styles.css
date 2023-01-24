@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(93, 202, 202);
+}
+.main{
+    padding: 20px;
+}
+.heading{
+    font-size: 70px;
+}
+
+.gamecontainer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+
+.cell{
+    border: 3px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gameInfo{
+    padding: 50px;
+
+}
+
+#reset{
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    background-color: rgb(227, 149, 40);
+    font-size: 20px;
+
+
+}
+.info{
+    font-size: 40px;
+}
